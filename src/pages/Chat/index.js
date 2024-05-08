@@ -32,6 +32,7 @@ export default function Chat({ navigation, route }) {
       <Header route={route.name}/>
       <View style={{
         paddingHorizontal: 20,
+        marginBottom: 20,
       }}>
 
         <Text style={{

@@ -23,7 +23,7 @@ export default function BoxArea({
             <Text style={styles.addressText}>{item.jalan}</Text>
             <View style={styles.buttonContainer}>
               <Button textTitle='Beli Sekarang' fontSize={12} padding={2} borderWidth={3} icon={<MaterialIcons name='shopping-cart' size={20} color={'black'} />}
-              onPress={()=> navigation.navigate('Pembayaran')} />
+              onPress={()=> navigation.navigate('Pembayaran', {item})} />
               <MaterialCommunityIcons name="message-outline" size={28} color={"black"} style={{alignSelf:'center', marginTop: 20}} 
               onPress={()=> navigation.navigate('Chat')}/>
             </View>

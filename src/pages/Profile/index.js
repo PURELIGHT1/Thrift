@@ -33,6 +33,7 @@ export default function Profile({ navigation, route }) {
       <View style={{
         marginTop: 50,
         paddingHorizontal: 2,
+        marginBottom: 20,
       }}>
         <TouchableOpacity onPress={() => alert('Edit Foto Profile')} style={{
           borderWidth: 2,

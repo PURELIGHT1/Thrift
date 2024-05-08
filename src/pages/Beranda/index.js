@@ -30,6 +30,7 @@ export default function Beranda({navigation, route}) {
         <View style={{
             paddingHorizontal: 20,
             marginTop: 10,
+            marginBottom: 20,
         }}>
             <InputText
                 placeholder="Kamu sedang cari apa ?"
