@@ -15,7 +15,7 @@ export default function Login({ navigation, route }) {
     if(dataLogin.username !== 'mikhael'){
       alert('Username salah!');
     }else{
-      if(dataLogin.password !== 'thrift123'){
+      if(dataLogin.password !== '12345'){
         alert('Password salah!');
       }else{
         alert('Login berhasil!');
