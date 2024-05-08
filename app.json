@@ -22,14 +22,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.unsri.thrift"
+      "package": "com.joki_bram.ThriftUnsri"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "55c2a17e-8859-448a-b329-b27b3ca9a29e"
+        "projectId": "486f16c0-3191-48f1-b07a-4c0c098582de"
       }
     }
   }

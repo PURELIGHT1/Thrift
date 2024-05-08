@@ -2,7 +2,7 @@
   "cli": {
     "version": ">= 8.0.0"
   },
-   "build": {
+ "build": {
     "preview": {
       "android": {
         "buildType": "apk"
